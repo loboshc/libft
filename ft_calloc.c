@@ -6,12 +6,11 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/13 13:06:52 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/13 13:39:30 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 13:54:41 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stddef.h>
+#include "libft.h"
 
 void		*ft_calloc(size_t num, size_t tam)
 {

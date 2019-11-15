@@ -6,11 +6,11 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/08 17:37:27 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/13 15:19:04 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 13:55:48 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {

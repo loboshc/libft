@@ -6,12 +6,11 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/14 13:02:20 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/14 14:07:43 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 13:56:28 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_substr(const char *s, unsigned int start, size_t len)
 {

@@ -6,11 +6,11 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/05 16:20:16 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/10 17:38:18 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 13:55:13 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *str1, const void *str2, size_t n)
 {

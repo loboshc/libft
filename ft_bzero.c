@@ -6,11 +6,11 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 20:50:15 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/10 17:10:26 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 13:54:34 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

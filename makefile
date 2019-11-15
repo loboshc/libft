@@ -10,7 +10,7 @@ NAME=libft.a
 
 all: $(NAME)
 
-$(NAME): $(SRCS)
+$(NAME): $(SRCS) libft.h
 	@gcc -Wall -Wextra -Werror -c $(SRCS)
 	@ar rc $(NAME) $(OBJECTS)
 	@ranlib $(NAME)

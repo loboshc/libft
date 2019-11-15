@@ -6,11 +6,11 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/12 13:29:07 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/12 13:40:08 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 13:56:12 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 char		*ft_strnstr(const char *dst, const char *src, size_t len)
 {

@@ -6,11 +6,11 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 13:09:08 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/10 16:35:10 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 13:55:02 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
