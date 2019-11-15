@@ -6,7 +6,7 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 13:40:48 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/15 13:58:10 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/15 17:21:55 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strnstr(const char *dst, const char *src, size_t len);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
+char	*ft_strtrim(char const *s1, char const *set);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
