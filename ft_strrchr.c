@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dlobos-m <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/07 16:03:37 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/07 16:09:38 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/18 19:55:04 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -21,9 +23,9 @@ char	*ft_strrchr(const char *s, int c)
 	car = (char)c;
 	while (cad[i] != '\0')
 		i++;
-	while (cad[i] != car && i >= 0)
+	while (cad[i] != car && i > 0)
 		i--;
 	if (cad[i] == car)
 		return (cad + i);
-	return (0);
+	return (NULL);
 }
