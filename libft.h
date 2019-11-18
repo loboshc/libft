@@ -6,7 +6,7 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 13:40:48 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/18 17:58:17 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/18 18:09:16 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int		ft_tolower(int c);
 void	ft_bzero(void *s, size_t n);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
+void	ft_putendl_fd(char *s, int fd);
 void	*ft_calloc(size_t num, size_t tam);
 void	*ft_memccpy(void *str1, const void *str2, int c, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
