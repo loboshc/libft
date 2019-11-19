@@ -6,7 +6,7 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/18 16:24:31 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/18 16:53:11 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/19 18:57:24 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	i = ft_strlen((char*)s) + 1;
 	if (!(pnt = (char*)malloc(sizeof(char) * i)))
 		return (NULL);
-	pnt[i] = '\0';
 	while (s[j])
 	{
 		pnt[j] = f(j, s[j]);
