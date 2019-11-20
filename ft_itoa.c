@@ -6,13 +6,13 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 19:04:38 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/20 12:22:01 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/20 14:49:37 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		numcar(long int n)
+static int		numcar(long int n)
 {
 	long int i;
 
