@@ -6,7 +6,7 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/13 13:06:52 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/20 17:16:04 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/20 17:21:00 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 
 void		*ft_calloc(size_t num, size_t tam)
 {
-	size_t	i;
 	void	*pnt;
 
-	i = 0;
 	pnt = malloc(num * tam);
 	if (pnt == NULL)
 		return (NULL);
