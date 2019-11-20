@@ -6,7 +6,7 @@
 /*   By: dlobos-m <dlobos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/13 13:06:52 by dlobos-m          #+#    #+#             */
-/*   Updated: 2019/11/18 19:25:57 by dlobos-m         ###   ########.fr       */
+/*   Updated: 2019/11/20 17:16:04 by dlobos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,6 @@ void		*ft_calloc(size_t num, size_t tam)
 	pnt = malloc(num * tam);
 	if (pnt == NULL)
 		return (NULL);
-	while (i < (num * tam))
-	{
-		((char*)pnt)[i] = 0;
-		i++;
-	}
+	ft_bzero(pnt, num * tam);
 	return (pnt);
 }
