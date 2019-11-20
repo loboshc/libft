@@ -6,7 +6,8 @@ SRCS=ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c
 		ft_strtrim.c ft_itoa.c ft_strmapi.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c\
 		ft_putnbr_fd.c ft_split.c
 
-BSRCS=ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c
+BSRCS=ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c ft_lstlast_bonus.c\
+		ft_lstadd_back_bonus.c
 
 OBJECTS= ${SRCS:.c=.o}
 BOBJECTS=${BSRCS:.c=.o}
