@@ -7,29 +7,30 @@ SRCS=ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c
 		ft_putnbr_fd.c ft_split.c
 
 BSRCS=ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c ft_lstlast_bonus.c\
-		ft_lstadd_back_bonus.c ft_lstdelone_bonus.c
+		ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstclear_bonus.c ft_lstiter_bonus.c\
+		ft_lstmap_bonus.c
 
 OBJECTS= ${SRCS:.c=.o}
 BOBJECTS=${BSRCS:.c=.o}
 
 NAME=libft.a
 
-all: $(NAME)
+all: ${NAME}
 
-$(NAME): $(SRCS) libft.h
-	@gcc -Wall -Wextra -Werror -c $(SRCS)
-	@ar rc $(NAME) $(OBJECTS)
-	@ranlib $(NAME)
+${NAME}: ${SRCS} libft.h
+	@gcc -Wall -Wextra -Werror -c ${SRCS}
+	@ar rc ${NAME} $(OBJECTS)
+	@ranlib ${NAME}
 
-bonus: ${BSRCS} $(NAME)
-	@gcc -Wall -Wextra -Werror -c $(BSRCS)
-	@ar rc $(NAME) $(BOBJECTS)
-	@ranlib $(NAME)
+bonus: ${BSRCS} ${NAME}
+	@gcc -Wall -Wextra -Werror -c ${BSRCS}
+	@ar rc ${NAME} ${BOBJECTS}
+	@ranlib ${NAME}
 
 clean:
-	@rm -f $(OBJECTS) $(BOBJECTS)
+	@rm -f ${OBJECTS} ${BOBJECTS}
 
 fclean: clean
-	@rm -f $(NAME)
+	@rm -f ${NAME}
 
 re: fclean all
