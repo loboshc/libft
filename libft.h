@@ -21,6 +21,8 @@ typedef struct		s_list
 	void			*content;
 	struct s_list	*next;
 }					t_list;
+
+int                 get_next_line(int fd, char **line);
 int					ft_atoi(const char *n);
 int					ft_toupper(int c);
 int					ft_isascii(int c);
